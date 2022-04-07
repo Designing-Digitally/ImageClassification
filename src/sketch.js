@@ -1,10 +1,10 @@
 import p5 from 'p5';
 
-const Canvas = (sketch) => 
+const App = (sketch) => 
 {
     sketch.setup = () =>
     {
-        sketch.createCanvas(1000,1000);
+        sketch.createCanvas(640,400);
     }
 
     sketch.draw = () => 
@@ -13,4 +13,4 @@ const Canvas = (sketch) =>
     }
 }
 
-let myp5 = new p5(Canvas);
+let myp5 = new p5(App);
