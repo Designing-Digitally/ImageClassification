@@ -3,31 +3,8 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-# Compiled Java class files
-*.class
-
-# Log files
-*.log
-
-# Package files
-*.jar
-
-#jscpd files
-report
-
-# Maven
-target/
-
-# JetBrains IDE
-.idea/
-
-# Unit test reports
-TEST*.xml
-
 #Distribution folder
-!/dist/
-/dist/*
-!/dist/index.html
+/dist/
 
 #node_modules
 /node_modules/
