@@ -1,0 +1,7 @@
+#Distribution folder
+!/dist/
+/dist/*
+!/dist/index.html
+
+#node_modules
+/node_modules/
