@@ -4,7 +4,7 @@ const Canvas = (sketch) =>
 {
     sketch.setup = () =>
     {
-        sketch.createCanvas(640,400);
+        sketch.createCanvas(1000,1000);
     }
 
     sketch.draw = () => 

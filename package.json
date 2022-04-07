@@ -23,6 +23,7 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
+    "ml5": "^0.12.0",
     "p5": "^1.4.1"
   }
 }
