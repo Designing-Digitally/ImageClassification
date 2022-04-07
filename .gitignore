@@ -4,7 +4,9 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 #Distribution folder
-/dist/
+!/dist/
+/dist/*
+!/dist/index.html
 
 #node_modules
 /node_modules/
