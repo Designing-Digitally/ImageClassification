@@ -1,4 +1,3 @@
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
@@ -7,7 +6,8 @@ module.exports = {
     output: {
         filename: 'app.js',
         path: path.resolve(__dirname, './dist'),
-        publicPath: ''
+        publicPath: '',
+        clean: true
     },
     mode: 'development',
     devServer: {
@@ -51,7 +51,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'ImageClassification - ML5js'
         })
